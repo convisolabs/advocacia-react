@@ -3,8 +3,7 @@
 
 <p align="center">
  <a href="#about">Sobre</a> • 
- <a href="#started">Iniciando</a> • 
-  <a href="#routes">Rotas</a> •  
+ <a href="#started">Iniciando</a> •  
 </p>
 
 
@@ -32,7 +31,7 @@ Segue lista de requisitos necessários para rodar o projeto:
 
 Como clonar o projeto
 ```bash
-git clone https://github.com/luzivangois/advocacia-react.git
+git clone https://github.com/convisolabs/advocacia-react.git
 ```
 
 <h3>Subindo a aplicação</h3>
