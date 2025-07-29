@@ -14,7 +14,7 @@
 
 <h2 id="about">📌 Sobre</h2>
 
-Este projeto foi criado para ser usado como frontend da aplicação https://github.com/luzivangois/java-vuln-api.
+Este projeto foi criado para ser usado como frontend da aplicação https://github.com/convisolabs/java-vuln-api.
 
 <h2 id="started">🚀 Iniciando</h2>
 
@@ -25,7 +25,7 @@ O projeto roda apenas localmente, conforme especificações abaixo:
 Segue lista de requisitos necessários para rodar o projeto:
 
 - [NodeJS](https://nodejs.org/en)
-- [Backend Java](https://github.com/luzivangois/java-vuln-app)
+- [Backend Java](https://github.com/convisolabs/java-vuln-app)
 - [React](https://react.dev/)
 
 <h3>Clonando</h3>
