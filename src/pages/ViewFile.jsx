@@ -17,6 +17,7 @@ function ViewFile() {
 
     try {
       const token = localStorage.getItem("token");
+      /* VULNERABILIDADE: Injeção de comandos - parâmetro 'name' enviado sem validação */
       const response = await api.get("/name", {
         params: { name },
         headers: {
