@@ -8,6 +8,9 @@ import UpdatePass from "./pages/UpdatePass";
 import UploadFile from "./pages/UploadFile";
 import ViewFile from "./pages/ViewFile";
 import Dashboard from "./pages/Dashboard";
+import Processos from "./pages/Processos";
+import ProcessCadastro from "./pages/ProcessCadastro";
+import ProcessConsulta from "./pages/ProcessConsulta";
 
 function PrivateRoute({ children }) {
   const isAuth = !!localStorage.getItem("token");
@@ -30,6 +33,9 @@ function AppRoutes() {
         <Route path="/upload" element={<PrivateRoute><UploadFile /></PrivateRoute>} />
         <Route path="/viewfile" element={<PrivateRoute><ViewFile /></PrivateRoute>} />
         <Route path="/updatepass" element={<PrivateRoute><UpdatePass /></PrivateRoute>} />
+        <Route path="/processos" element={<PrivateRoute><Processos /></PrivateRoute>} />
+        <Route path="/processos/cadastrar" element={<PrivateRoute><ProcessCadastro /></PrivateRoute>} />
+        <Route path="/processos/consulta" element={<PrivateRoute><ProcessConsulta /></PrivateRoute>} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>

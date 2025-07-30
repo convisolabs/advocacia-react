@@ -25,6 +25,8 @@ function Navbar() {
           <span style={{ color: "#8B6F3D", fontSize: 18 }}>|</span>
           <Link to="/users" style={{ color: "#8B6F3D", fontSize: 18, textDecoration: "none", fontWeight: 400 }}>Usuários</Link>
           <span style={{ color: "#8B6F3D", fontSize: 18 }}>|</span>
+          <Link to="/processos" style={{ color: "#8B6F3D", fontSize: 18, textDecoration: "none", fontWeight: 400 }}>Processos</Link>
+          <span style={{ color: "#8B6F3D", fontSize: 18 }}>|</span>
           <Link to="/upload" style={{ color: "#8B6F3D", fontSize: 18, textDecoration: "none", fontWeight: 400 }}>Enviar Arquivo</Link>
           <span style={{ color: "#8B6F3D", fontSize: 18 }}>|</span>
           <Link to="/viewfile" style={{ color: "#8B6F3D", fontSize: 18, textDecoration: "none", fontWeight: 400 }}>Ver Arquivo</Link>

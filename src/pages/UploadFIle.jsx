@@ -19,7 +19,7 @@ function UploadFile() {
     }
 
     const formData = new FormData();
-    formData.append("file", arquivo); // o nome "file" precisa bater com o backend
+    formData.append("file", arquivo);
 
     try {
       const token = localStorage.getItem("token");
