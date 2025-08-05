@@ -11,6 +11,7 @@ import Dashboard from "./pages/Dashboard";
 import Processos from "./pages/Processos";
 import ProcessCadastro from "./pages/ProcessCadastro";
 import ProcessConsulta from "./pages/ProcessConsulta";
+import OAuthLogin from "./pages/OAuthLogin";
 
 function PrivateRoute({ children }) {
   const isAuth = !!localStorage.getItem("token");
@@ -36,6 +37,8 @@ function AppRoutes() {
         <Route path="/processos" element={<PrivateRoute><Processos /></PrivateRoute>} />
         <Route path="/processos/cadastrar" element={<PrivateRoute><ProcessCadastro /></PrivateRoute>} />
         <Route path="/processos/consulta" element={<PrivateRoute><ProcessConsulta /></PrivateRoute>} />
+        <Route path="/oauth" element={<OAuthLogin />} />
+        <Route path="/oauth/callback" element={<OAuthLogin />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>

@@ -32,6 +32,8 @@ function Navbar() {
           <Link to="/viewfile" style={{ color: "#8B6F3D", fontSize: 18, textDecoration: "none", fontWeight: 400 }}>Ver Arquivo</Link>
           <span style={{ color: "#8B6F3D", fontSize: 18 }}>|</span>
           <Link to="/updatepass" style={{ color: "#8B6F3D", fontSize: 18, textDecoration: "none", fontWeight: 400 }}>Atualizar Senha</Link>
+          <span style={{ color: "#8B6F3D", fontSize: 18 }}>|</span>
+          <Link to="/oauth" style={{ color: "#8B6F3D", fontSize: 18, textDecoration: "none", fontWeight: 400 }}>OAuth</Link>
         </>
       ) : (
         <>
