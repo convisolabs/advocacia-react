@@ -24,7 +24,7 @@ O projeto roda apenas localmente, conforme especificações abaixo:
 Segue lista de requisitos necessários para rodar o projeto:
 
 - [NodeJS](https://nodejs.org/en)
-- [Backend Java](https://github.com/convisolabs/java-vuln-app)
+- [Backend Java](https://github.com/convisolabs/java-vuln-api)
 - [React](https://react.dev/)
 
 <h3>Clonando</h3>
